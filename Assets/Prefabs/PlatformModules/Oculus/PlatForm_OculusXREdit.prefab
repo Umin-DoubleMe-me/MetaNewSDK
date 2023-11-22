@@ -105,6 +105,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3140093381690940171}
+  - component: {fileID: 6866911365312736315}
   m_Layer: 0
   m_Name: PlatForm_OculusXREdit
   m_TagString: Untagged
@@ -127,8 +128,32 @@ Transform:
   - {fileID: 4798558294628391813}
   - {fileID: 4453954552968167879}
   m_Father: {fileID: 0}
-  m_RootOrder: 1
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &6866911365312736315
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3140093381690940166}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e57d14f2039a9c4f862f35072093539, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  select:
+    m_UseReference: 1
+    m_Action:
+      m_Name: Select
+      m_Type: 0
+      m_ExpectedControlType: 
+      m_Id: 3fc64173-791e-4ca9-b73e-2e646400516a
+      m_Processors: 
+      m_Interactions: 
+      m_SingletonActionBindings: []
+      m_Flags: 0
+    m_Reference: {fileID: -6131295136447488360, guid: c348712bda248c246b8c49b3db54643f, type: 3}
 --- !u!1 &3447639306717895301
 GameObject:
   m_ObjectHideFlags: 0
@@ -664,77 +689,9 @@ PrefabInstance:
       value: Left Hand_OculusXR
       objectReference: {fileID: 0}
     - target: {fileID: 6882091080745745058, guid: 6a7aaf1f2b3462e428eeb3401a7d8ac9, type: 3}
-      propertyPath: m_SelectAction.m_Reference
-      value: 
-      objectReference: {fileID: -6131295136447488360, guid: c348712bda248c246b8c49b3db54643f, type: 3}
-    - target: {fileID: 6882091080745745058, guid: 6a7aaf1f2b3462e428eeb3401a7d8ac9, type: 3}
-      propertyPath: m_UIPressAction.m_Reference
-      value: 
-      objectReference: {fileID: -6395602842196007441, guid: c348712bda248c246b8c49b3db54643f, type: 3}
-    - target: {fileID: 6882091080745745058, guid: 6a7aaf1f2b3462e428eeb3401a7d8ac9, type: 3}
-      propertyPath: m_ActivateAction.m_Reference
-      value: 
-      objectReference: {fileID: -5982496924579745919, guid: c348712bda248c246b8c49b3db54643f, type: 3}
-    - target: {fileID: 6882091080745745058, guid: 6a7aaf1f2b3462e428eeb3401a7d8ac9, type: 3}
-      propertyPath: m_PositionAction.m_Reference
-      value: 
-      objectReference: {fileID: -2706128282752906596, guid: c348712bda248c246b8c49b3db54643f, type: 3}
-    - target: {fileID: 6882091080745745058, guid: 6a7aaf1f2b3462e428eeb3401a7d8ac9, type: 3}
       propertyPath: m_RotationAction.m_Reference
       value: 
-      objectReference: {fileID: 8248158260566104461, guid: c348712bda248c246b8c49b3db54643f, type: 3}
-    - target: {fileID: 6882091080745745058, guid: 6a7aaf1f2b3462e428eeb3401a7d8ac9, type: 3}
-      propertyPath: m_UIScrollAction.m_Reference
-      value: 
-      objectReference: {fileID: 2464016903823916871, guid: c348712bda248c246b8c49b3db54643f, type: 3}
-    - target: {fileID: 6882091080745745058, guid: 6a7aaf1f2b3462e428eeb3401a7d8ac9, type: 3}
-      propertyPath: m_IsTrackedAction.m_Reference
-      value: 
-      objectReference: {fileID: 840156964685210860, guid: c348712bda248c246b8c49b3db54643f, type: 3}
-    - target: {fileID: 6882091080745745058, guid: 6a7aaf1f2b3462e428eeb3401a7d8ac9, type: 3}
-      propertyPath: m_SelectActionValue.m_Reference
-      value: 
-      objectReference: {fileID: 6558622148059887818, guid: c348712bda248c246b8c49b3db54643f, type: 3}
-    - target: {fileID: 6882091080745745058, guid: 6a7aaf1f2b3462e428eeb3401a7d8ac9, type: 3}
-      propertyPath: m_HapticDeviceAction.m_Reference
-      value: 
-      objectReference: {fileID: -8785819595477538065, guid: c348712bda248c246b8c49b3db54643f, type: 3}
-    - target: {fileID: 6882091080745745058, guid: 6a7aaf1f2b3462e428eeb3401a7d8ac9, type: 3}
-      propertyPath: m_RotateAnchorAction.m_Reference
-      value: 
-      objectReference: {fileID: -7363382999065477798, guid: c348712bda248c246b8c49b3db54643f, type: 3}
-    - target: {fileID: 6882091080745745058, guid: 6a7aaf1f2b3462e428eeb3401a7d8ac9, type: 3}
-      propertyPath: m_UIPressActionValue.m_Reference
-      value: 
-      objectReference: {fileID: 71106601250685021, guid: c348712bda248c246b8c49b3db54643f, type: 3}
-    - target: {fileID: 6882091080745745058, guid: 6a7aaf1f2b3462e428eeb3401a7d8ac9, type: 3}
-      propertyPath: m_ActivateActionValue.m_Reference
-      value: 
-      objectReference: {fileID: -4289430672226363583, guid: c348712bda248c246b8c49b3db54643f, type: 3}
-    - target: {fileID: 6882091080745745058, guid: 6a7aaf1f2b3462e428eeb3401a7d8ac9, type: 3}
-      propertyPath: m_TrackingStateAction.m_Reference
-      value: 
-      objectReference: {fileID: 684395432459739428, guid: c348712bda248c246b8c49b3db54643f, type: 3}
-    - target: {fileID: 6882091080745745058, guid: 6a7aaf1f2b3462e428eeb3401a7d8ac9, type: 3}
-      propertyPath: m_TranslateAnchorAction.m_Reference
-      value: 
-      objectReference: {fileID: 7779212132400271959, guid: c348712bda248c246b8c49b3db54643f, type: 3}
-    - target: {fileID: 6882091080745745058, guid: 6a7aaf1f2b3462e428eeb3401a7d8ac9, type: 3}
-      propertyPath: m_DirectionalAnchorRotationAction.m_Reference
-      value: 
-      objectReference: {fileID: -8811388872089202044, guid: c348712bda248c246b8c49b3db54643f, type: 3}
-    - target: {fileID: 7618006249776923165, guid: 6a7aaf1f2b3462e428eeb3401a7d8ac9, type: 3}
-      propertyPath: m_PositionInput.m_Reference
-      value: 
-      objectReference: {fileID: -4441903561031843679, guid: c348712bda248c246b8c49b3db54643f, type: 3}
-    - target: {fileID: 7618006249776923165, guid: 6a7aaf1f2b3462e428eeb3401a7d8ac9, type: 3}
-      propertyPath: m_RotationInput.m_Reference
-      value: 
-      objectReference: {fileID: -3279446914071225446, guid: c348712bda248c246b8c49b3db54643f, type: 3}
-    - target: {fileID: 7618006249776923165, guid: 6a7aaf1f2b3462e428eeb3401a7d8ac9, type: 3}
-      propertyPath: m_TrackingStateInput.m_Reference
-      value: 
-      objectReference: {fileID: 684395432459739428, guid: c348712bda248c246b8c49b3db54643f, type: 3}
+      objectReference: {fileID: 3562980889028019038, guid: c348712bda248c246b8c49b3db54643f, type: 3}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
