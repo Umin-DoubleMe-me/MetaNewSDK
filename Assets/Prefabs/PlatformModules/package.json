@@ -1,0 +1,23 @@
+{
+	"name": "com.doubleme.xrinteractor",
+	"version": "0.0.1",
+	"displayName": "Doubleme XRI SDK",
+	"description": "Platform custom XRI SDK used by Doubleme",
+	"unity": "2022.3",
+	"unityRelease": "0b4",
+	"dependencies": {
+		"com.unity.xr.openxr": "1.8.2",
+		"com.unity.xr.hands": "1.3.0",
+		"com.unity.xr.interaction.toolkit": "2.5.0",
+		"com.unity.xr.oculus": "4.0.0"
+
+	},
+	"keywords": [
+		"Doubleme",
+		"XRI"
+	],
+	"author": {
+		"name": "Eugene Choi",
+		"email": "eugene.choi@doubleme.me"
+	}
+}

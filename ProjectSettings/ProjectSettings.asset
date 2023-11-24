@@ -138,6 +138,9 @@ PlayerSettings:
   - {fileID: 11400000, guid: fd2dc2a2f1f4e384982e9da1d4d74c1c, type: 2}
   - {fileID: 0}
   - {fileID: 0}
+  - {fileID: 8855698585337232713, guid: 2beb1c3f0638f2e45aa59db08e7ad9ef, type: 2}
+  - {fileID: 11400000, guid: f9befa589e2777f48b69ade62077d690, type: 2}
+  - {fileID: 7326207860853749017, guid: ad28c54f0054c8b4a8ef918dced52bd9, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -739,7 +742,7 @@ PlayerSettings:
   webGLMemoryGeometricGrowthCap: 96
   webGLPowerPreference: 2
   scriptingDefineSymbols:
-    Android: USE_INPUT_SYSTEM_POSE_CONTROL;USE_INPUT_SYSTEM_POSE_CONTROL
+    Android: USE_INPUT_SYSTEM_POSE_CONTROL;USING_XR_SDK_OCULUS
     Standalone: USE_INPUT_SYSTEM_POSE_CONTROL;USE_INPUT_SYSTEM_POSE_CONTROL
     Windows Store Apps: USE_INPUT_SYSTEM_POSE_CONTROL;USE_INPUT_SYSTEM_POSE_CONTROL
   additionalCompilerArguments: {}
@@ -847,7 +850,7 @@ PlayerSettings:
   embeddedLinuxEnableGamepadInput: 1
   hmiLogStartupTiming: 0
   hmiCpuConfiguration: 
-  apiCompatibilityLevel: 3
+  apiCompatibilityLevel: 6
   activeInputHandler: 1
   windowsGamepadBackendHint: 0
   cloudProjectId: d93fdc9b-560d-4325-b2b7-456428c10f75
