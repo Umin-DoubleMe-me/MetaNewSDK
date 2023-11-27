@@ -48,16 +48,16 @@ public class SpaceAnchor : MonoBehaviour
 	{
 		if (!_spatialAnchor) return;
 
-		Debug.Log("Umin On");
+		Debug.Log("Umin 11");
 		_spatialAnchor.Save((anchor, success) =>
 		{
-			Debug.Log("Umin : " + success);
+			Debug.Log("Umin " + success);
 			if (!success) return;
 
 			SaveUuidToPlayerPrefs(anchor.Uuid);
 		});
 
-		Debug.Log("Umin Done");
+		Debug.Log("Umin done");
 	}
 
 	void SaveUuidToPlayerPrefs(Guid uuid)
