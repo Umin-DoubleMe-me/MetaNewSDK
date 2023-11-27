@@ -409,15 +409,6 @@
                     "initialStateCheck": true
                 },
                 {
-                    "name": "Pinch Rotation",
-                    "type": "Value",
-                    "id": "e7c9465b-40b1-48be-813f-a380695953d6",
-                    "expectedControlType": "Quaternion",
-                    "processors": "",
-                    "interactions": "",
-                    "initialStateCheck": true
-                },
-                {
                     "name": "Poke Position",
                     "type": "Value",
                     "id": "4c557d81-3795-4355-a83e-6f886221d011",
@@ -600,6 +591,17 @@
                 },
                 {
                     "name": "",
+                    "id": "f7a37505-52bd-4a96-8f88-c761a62a71e7",
+                    "path": "<XRHandDevice>{LeftHand}/pinchPosition",
+                    "interactions": "",
+                    "processors": "",
+                    "groups": "Generic XR Controller",
+                    "action": "Pinch Position",
+                    "isComposite": false,
+                    "isPartOfComposite": false
+                },
+                {
+                    "name": "",
                     "id": "017a01a2-6e1a-4b39-9b5e-e115d5d2dd6a",
                     "path": "<XRHandDevice>{LeftHand}/pokePosition",
                     "interactions": "",
@@ -672,28 +674,6 @@
                     "processors": "",
                     "groups": "Generic XR Controller",
                     "action": "Grip Rotation",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "22668673-f6f1-4dc7-b65c-e5d2a7b7681e",
-                    "path": "<XRHandDevice>{LeftHand}/pinchRotation",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "",
-                    "action": "Pinch Rotation",
-                    "isComposite": false,
-                    "isPartOfComposite": false
-                },
-                {
-                    "name": "",
-                    "id": "f7a37505-52bd-4a96-8f88-c761a62a71e7",
-                    "path": "<XRHandDevice>{LeftHand}/pinchPosition",
-                    "interactions": "",
-                    "processors": "",
-                    "groups": "Generic XR Controller",
-                    "action": "Pinch Position",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
